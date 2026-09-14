@@ -31,7 +31,7 @@
     "title": "Quality and user-friendly software solutions.",
     "description": "Full Stack Developer building modern websites, smart Telegram bots, and applications.",
     "bio1": "I'm Arslan Titerbayev — a Full Stack Developer specializing in building modern websites, Telegram bots, and applications. I focus on clean code, smooth user experience, and high performance.",
-    "bio2": "Over 1 year of learning and hands-on practice, I've built 20+ projects, mastered 15+ modern technologies, and delivered real solutions for 10+ satisfied clients.",
+    "bio2": "Over 2 years of learning and hands-on practice, I've built 20+ projects, mastered 15+ modern technologies, and delivered real solutions for 10+ satisfied clients.",
     "tags": ["Full Stack Web", "Telegram Bot API", "Python & Asyncio", "React & Next.js", "AI Integration", "System Optimization"],
     "stats": {
       "years": "Years of experience",
@@ -104,9 +104,21 @@
       },
       "mwpizzashop": {
         "title": "Pizza Shop",
-        "description": "A modern e-commerce website for online pizza ordering and delivery.",
-        "longDescription": "Pizza Shop is a sleek web application for ordering pizza online, featuring smooth cart management and instant checkout.",
-        "tags": ["E-commerce", "Website"]
+        "description": "A modern and user-friendly e-commerce web application for ordering pizza and food online.",
+        "longDescription": "Pizza Shop is a modern e-commerce web application allowing customers to browse menu items, add products to cart, and place instant online food orders.",
+        "tags": ["E-Commerce", "Web App"]
+      },
+      "woodendot": {
+        "title": "Woodendot",
+        "description": "A minimalist and elegant furniture e-commerce showcase built with React.",
+        "longDescription": "Woodendot is a minimalist React web showcase for handcrafted wooden furniture and interior spaces. Features rich product galleries, clean typography, and a modern aesthetic layout.",
+        "tags": ["React", "E-Commerce", "Furniture & Design"]
+      },
+      "starbucks": {
+        "title": "Starbucks Redesign",
+        "description": "A modern, interactive, and premium React web application for Starbucks cafe.",
+        "longDescription": "Starbucks Redesign is an immersive React web application designed for Starbucks coffee lovers. Features interactive coffee menus, reward programs, custom ordering, and a rich dark aesthetic.",
+        "tags": ["React", "Coffee Shop", "Web App"]
       },
       "coddyreminder": {
         "title": "CoddyReminder",

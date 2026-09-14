@@ -31,7 +31,7 @@ export function TechStack() {
             key={key}
             onClick={() => setCategory(key)}
             className={cn(
-              "rounded-full border px-4 py-2 text-xs font-medium transition-all",
+              "w-auto shrink-0 inline-flex items-center justify-center whitespace-nowrap rounded-full border px-4 py-2 text-xs font-medium transition-all",
               category === key
                 ? "border-white bg-white text-black"
                 : "border-white/10 bg-white/[0.02] text-white/60 hover:text-white"
@@ -68,10 +68,10 @@ export function TechStack() {
                 <div className="relative h-1 w-full overflow-hidden rounded-full bg-white/5">
                   <motion.div
                     className="h-full rounded-full bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-glow)]"
-                    initial={{ width: 0 }}
+                    initial={{ width: "0%" }}
                     whileInView={{ width: `${skill.level}%` }}
                     viewport={viewportOnce}
-                    transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
+                    transition={{ duration: 1.2, delay: 0.15, ease: "easeOut" }}
                   />
                 </div>
               </Card>

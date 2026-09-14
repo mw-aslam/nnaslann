@@ -6,7 +6,7 @@ import type { SocialLink } from "@/types";
 import { cn } from "@/lib/utils";
 
 const baseClasses =
-  "flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/[0.02] text-white/60 transition-colors hover:border-[var(--color-accent)]/50 hover:text-white";
+  "flex h-10 w-10 min-h-10 min-w-10 max-h-10 max-w-10 shrink-0 aspect-square items-center justify-center rounded-full border border-white/20 bg-white/10 text-white/90 transition-all hover:bg-white/20 hover:border-white/40 hover:text-white shadow-sm cursor-pointer";
 
 export function SocialIcon({ social, className }: { social: SocialLink; className?: string }) {
   const [copied, setCopied] = useState(false);

@@ -75,7 +75,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ];
 
 export const STATS: Stat[] = [
-  { key: "years", value: 1, suffix: "+" },
+  { key: "years", value: 2, suffix: "+" },
   { key: "projects", value: 20, suffix: "+" },
   { key: "tech", value: 15, suffix: "+" },
   { key: "clients", value: 10, suffix: "+" },
@@ -142,6 +142,22 @@ export const PROJECTS: Project[] = [
     image: "/images/projects/mwpizzashop.jpg",
     tech: ["React", "JavaScript", "Tailwind CSS"],
     liveUrl: "https://mwpizzashop.netlify.app/",
+    featured: true,
+    year: "2026",
+  },
+  {
+    id: "woodendot",
+    image: "/api/image?name=woodendot",
+    tech: ["React", "JavaScript", "Tailwind CSS", "UI/UX Design"],
+    liveUrl: "https://woodenndot.netlify.app/",
+    featured: true,
+    year: "2026",
+  },
+  {
+    id: "starbucks",
+    image: "/api/image?name=starbucks",
+    tech: ["React", "JavaScript", "Tailwind CSS", "UI/UX Design"],
+    liveUrl: "https://starbuckksss.netlify.app/",
     featured: true,
     year: "2026",
   },

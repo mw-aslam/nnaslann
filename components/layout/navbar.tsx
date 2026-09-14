@@ -54,9 +54,14 @@ export function Navbar() {
             e.preventDefault();
             handleNavClick("#hero");
           }}
-          className="text-base sm:text-lg font-semibold tracking-tight text-white"
+          className="flex items-center gap-2.5 text-base sm:text-lg font-semibold tracking-tight text-white group"
         >
-          Arslan<span className="text-[var(--color-accent)]">.</span>
+          <img
+            src="/api/image?name=logo"
+            alt="TA Logo"
+            className="h-6 w-6 rounded-full object-contain shadow-sm transition-transform group-hover:scale-105"
+          />
+          <span>Arslan<span className="text-[var(--color-accent)]">.</span></span>
         </a>
 
         <div className="hidden items-center gap-1 lg:flex">

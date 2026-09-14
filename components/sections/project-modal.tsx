@@ -24,6 +24,11 @@ interface ProjectModalProps {
 export function ProjectModal({ project, onOpenChange }: ProjectModalProps) {
   const t = useTranslations("projects");
   const [showNotice, setShowNotice] = useState(false);
+  const [modalImgSrc, setModalImgSrc] = useState(project?.image || "");
+
+  useEffect(() => {
+    if (project) setModalImgSrc(project.image);
+  }, [project]);
 
   useEffect(() => {
     const lenis = getLenis();
@@ -58,9 +63,15 @@ export function ProjectModal({ project, onOpenChange }: ProjectModalProps) {
           <>
             <div className="relative aspect-[16/9] w-full overflow-hidden rounded-t-2xl bg-[#0b0b0b]">
               <Image
-                src={project.image}
+                src={modalImgSrc}
                 alt={t(`items.${project.id}.title`)}
                 fill
+                unoptimized
+                onError={() => {
+                  if (modalImgSrc.includes("/api/image")) {
+                    setModalImgSrc(`/images/projects/${project.id}.jpg`);
+                  }
+                }}
                 className="object-contain"
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0b0b0b] to-transparent" />

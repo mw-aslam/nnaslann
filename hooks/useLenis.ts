@@ -11,11 +11,15 @@ export function getLenis() {
 
 export function useLenis() {
   useEffect(() => {
+    // Disable Lenis on mobile touch devices for 60fps native GPU touch scroll
+    if (typeof window !== "undefined" && (window.innerWidth < 768 || "ontouchstart" in window)) {
+      return;
+    }
+
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
-      touchMultiplier: 1.5,
       prevent: (node) => node.closest("[data-lenis-prevent]") !== null,
     });
 

@@ -19,7 +19,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex min-h-[100svh] w-full flex-col items-center justify-center overflow-hidden px-6 pt-28 pb-16"
+      className="relative flex min-h-[100svh] w-full max-w-full flex-col items-center justify-center overflow-hidden px-4 sm:px-6 pt-28 pb-16"
     >
       <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center text-center">
         <motion.div

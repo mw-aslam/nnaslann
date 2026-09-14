@@ -39,7 +39,7 @@ function createCodeTexture(text: string) {
   if (ctx) {
     ctx.clearRect(0, 0, 384, 192);
     ctx.shadowColor = "rgba(255, 255, 255, 0.95)";
-    ctx.shadowBlur = 16;
+    ctx.shadowBlur = 18;
     ctx.fillStyle = "#ffffff";
     ctx.font = "bold 44px sans-serif";
     ctx.textAlign = "center";
@@ -47,6 +47,59 @@ function createCodeTexture(text: string) {
     ctx.fillText(text, 192, 96);
   }
   return new THREE.CanvasTexture(canvas);
+}
+
+function Floating3DSprite({
+  item,
+  idx,
+  halfWidth,
+  tex,
+}: {
+  item: any;
+  idx: number;
+  halfWidth: number;
+  tex: THREE.CanvasTexture | null;
+}) {
+  const spriteRef = useRef<THREE.Sprite>(null);
+  const scrollYRef = useRef(0);
+
+  useEffect(() => {
+    function handleScroll() {
+      scrollYRef.current = window.scrollY;
+    }
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useFrame(({ clock }) => {
+    if (!spriteRef.current) return;
+    const t = clock.getElapsedTime();
+    const speed = 0.6 + (idx % 4) * 0.25;
+    const floatY = Math.sin(t * speed + idx * 1.5) * 0.35;
+    const floatX = Math.cos(t * (speed * 0.6) + idx * 2) * 0.2;
+    const scrollOffsetY = scrollYRef.current * 0.0015;
+
+    const baseKeyX = item.side * (halfWidth * item.xFactor);
+    spriteRef.current.position.x = baseKeyX + floatX;
+    spriteRef.current.position.y = item.y + floatY - (scrollOffsetY % 14);
+  });
+
+  if (!tex) return null;
+
+  return (
+    <sprite
+      ref={spriteRef}
+      position={[item.side * (halfWidth * item.xFactor), item.y, item.z]}
+      scale={[item.scale * 3.6, item.scale * 1.8, 1]}
+    >
+      <spriteMaterial
+        map={tex}
+        transparent
+        opacity={0.8}
+        depthWrite={false}
+      />
+    </sprite>
+  );
 }
 
 function CodeMatrixField() {
@@ -99,8 +152,7 @@ function CodeMatrixField() {
   useFrame(({ clock }) => {
     const t = clock.getElapsedTime();
     if (groupRef.current) {
-      groupRef.current.rotation.y = scrollYRef.current * 0.0003 + Math.sin(t * 0.12) * 0.05;
-      groupRef.current.position.y = scrollYRef.current * 0.001;
+      groupRef.current.rotation.y = scrollYRef.current * 0.0004 + Math.sin(t * 0.15) * 0.08;
     }
   });
 
@@ -110,27 +162,14 @@ function CodeMatrixField() {
     <group ref={groupRef}>
       {items.map((item, idx) => {
         const tex = item.side === -1 ? leftTextures[item.texIndex] : rightTextures[item.texIndex];
-        if (!tex) return null;
-
-        const posX = item.side * (halfWidth * item.xFactor);
-
         return (
-          <sprite
+          <Floating3DSprite
             key={idx}
-            position={[
-              posX + Math.sin(idx + scrollYRef.current * 0.0005) * 0.15,
-              item.y,
-              item.z,
-            ]}
-            scale={[item.scale * 3.6, item.scale * 1.8, 1]}
-          >
-            <spriteMaterial
-              map={tex}
-              transparent
-              opacity={0.88}
-              depthWrite={false}
-            />
-          </sprite>
+            item={item}
+            idx={idx}
+            halfWidth={halfWidth}
+            tex={tex}
+          />
         );
       })}
     </group>
@@ -138,9 +177,11 @@ function CodeMatrixField() {
 }
 
 export function ParticleField() {
-  const [isMobile, setIsMobile] = useState(true);
+  const [mounted, setMounted] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
     const checkMobile = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -149,7 +190,7 @@ export function ParticleField() {
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  if (isMobile) return null;
+  if (!mounted || isMobile) return null;
 
   return (
     <Canvas

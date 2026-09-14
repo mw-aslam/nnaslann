@@ -35,13 +35,15 @@ const DialogContent = React.forwardRef<
       ref={ref}
       data-lenis-prevent
       className={cn(
-        "fixed left-1/2 top-1/2 z-[90] w-[92vw] max-w-3xl -translate-x-1/2 -translate-y-1/2 max-h-[88vh] overflow-y-auto rounded-2xl border border-white/10 bg-[#0b0b0b] p-0 shadow-2xl shadow-black/60 transition-all duration-300 data-[state=closed]:scale-95 data-[state=closed]:opacity-0 data-[state=open]:scale-100 data-[state=open]:opacity-100",
+        "fixed left-1/2 top-1/2 z-[90] w-[92vw] max-w-3xl -translate-x-1/2 -translate-y-1/2 max-h-[88vh] overflow-hidden rounded-2xl border border-white/20 bg-[#0b0b0b] p-0 shadow-2xl shadow-black/80 transition-all duration-300 data-[state=closed]:scale-95 data-[state=closed]:opacity-0 data-[state=open]:scale-100 data-[state=open]:opacity-100 flex flex-col",
         className
       )}
       {...props}
     >
-      {children}
-      <DialogPrimitive.Close className="absolute right-5 top-5 z-10 rounded-full bg-white/5 p-2 text-white/70 transition-colors hover:bg-white/10 hover:text-white">
+      <div className="w-full h-full max-h-[88vh] overflow-y-auto rounded-2xl">
+        {children}
+      </div>
+      <DialogPrimitive.Close className="absolute right-4 top-4 z-[100] flex h-9 w-9 shrink-0 aspect-square items-center justify-center rounded-full border border-white/25 bg-black/85 text-white shadow-xl backdrop-blur-md transition-all hover:scale-110 active:scale-95 cursor-pointer">
         <X className="h-4 w-4" />
         <span className="sr-only">Close</span>
       </DialogPrimitive.Close>

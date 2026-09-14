@@ -47,20 +47,20 @@ export const staggerContainer = (stagger = 0.12, delayChildren = 0): Variants =>
 });
 
 export const slideInLeft: Variants = {
-  hidden: { opacity: 0, x: -60 },
+  hidden: { opacity: 0, x: -20 },
   visible: (i: number = 0) => ({
     opacity: 1,
     x: 0,
-    transition: { duration: 0.7, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] },
+    transition: { duration: 0.6, delay: i * 0.06, ease: [0.16, 1, 0.3, 1] },
   }),
 };
 
 export const slideInRight: Variants = {
-  hidden: { opacity: 0, x: 60 },
+  hidden: { opacity: 0, x: 20 },
   visible: (i: number = 0) => ({
     opacity: 1,
     x: 0,
-    transition: { duration: 0.7, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] },
+    transition: { duration: 0.6, delay: i * 0.06, ease: [0.16, 1, 0.3, 1] },
   }),
 };
 
@@ -73,4 +73,4 @@ export const textReveal: Variants = {
   }),
 };
 
-export const viewportOnce = { once: true, margin: "-80px" };
+export const viewportOnce = { once: true, margin: "0px", amount: 0.05 };

@@ -31,7 +31,7 @@
     "title": "Sifatli va qulay dasturiy yechimlar.",
     "description": "Zamonaviy veb-saytlar, aqlli Telegram botlar va ilovalar yaratuvchi Full Stack dasturchi.",
     "bio1": "Men Arslan Titerbayevman — zamonaviy veb-saytlar, Telegram botlar va foydali ilovalar yaratishga ixtisoslashgan Full Stack dasturchiman. Kod tozaligi, foydalanuvchi uchun qulaylik hamda yuqori tezlikka alohida e'tibor qarataman.",
-    "bio2": "Bir yildan ortiq davom etgan o'rganish va amaliy tajriba davomida 20 dan ortiq loyihalar ustida ishladim, 15 dan ortiq zamonaviy texnologiyalarni o'zlashtirdim va 10 dan ortiq mijozlarga amaliy yechimlar yetkazib berdim.",
+    "bio2": "Ikki yildan ortiq davom etgan o'rganish va amaliy tajriba davomida 20 dan ortiq loyihalar ustida ishladim, 15 dan ortiq zamonaviy texnologiyalarni o'zlashtirdim va 10 dan ortiq mijozlarga amaliy yechimlar yetkazib berdim.",
     "tags": ["Full Stack Web", "Telegram Bot API", "Python & Asyncio", "React & Next.js", "AI Integratsiya", "System Optimization"],
     "stats": {
       "years": "Dasturlash tajribasi (yil)",
@@ -107,6 +107,18 @@
         "description": "Pitsa va taomlarni onlayn buyurtma qilish uchun qulay va zamonaviy elektron tijorat veb-sayti.",
         "longDescription": "Pizza Shop — mijozlar uchun pitsa va taomlarni onlayn tanlash, savatchaga qo'shish hamda tezkor buyurtma berish imkonini beruvchi qulay va zamonaviy veb-sayt platformasi.",
         "tags": ["Elektron tijorat", "Veb-sayt"]
+      },
+      "woodendot": {
+        "title": "Woodendot",
+        "description": "Yog'och mebel va interyer dizayni uchun yaratilgan minimalist va nafis elektron tijorat veb-sayti.",
+        "longDescription": "Woodendot — zamonaviy va minimalist uslubdagi mebellar hamda interyer buyumlarini namoyish qiluvchi React veb-sayti. Yuqori sifatli fotosuratlar, qulay galereya hamda nafis tipografika va interfeys dizayniga ega.",
+        "tags": ["React", "Elektron tijorat", "Mebel & Dizayn"]
+      },
+      "starbucks": {
+        "title": "Starbucks Redesign",
+        "description": "Starbucks qahvaxonalari uchun yaratilgan zamonaviy, interaktiv va taassurotli React veb-sayti.",
+        "longDescription": "Starbucks Redesign — mashhur Starbucks brendi uchun yaratilgan yuqori sifatli veb-sayt. Qahva menyulari, aksiyalar, buyurtma berish hamda nafis qora va yashil premium dizaynga ega.",
+        "tags": ["React", "Qahvaxona", "Veb-sayt"]
       },
       "coddyreminder": {
         "title": "CoddyReminder",

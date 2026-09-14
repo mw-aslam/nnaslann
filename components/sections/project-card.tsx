@@ -19,6 +19,7 @@ export function ProjectCard({ project, onOpen, featured }: ProjectCardProps) {
   const tags = t.raw(`items.${project.id}.tags`) as string[];
   const ref = useRef<HTMLDivElement>(null);
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
+  const [imgSrc, setImgSrc] = useState(project.image);
 
   function handleMove(e: React.MouseEvent<HTMLDivElement>) {
     const rect = ref.current?.getBoundingClientRect();
@@ -39,11 +40,17 @@ export function ProjectCard({ project, onOpen, featured }: ProjectCardProps) {
       }}
       className="group relative cursor-pointer overflow-hidden transition-transform duration-200 ease-out will-change-transform h-full flex flex-col justify-between"
     >
-      <div className="relative aspect-[16/10] w-full overflow-hidden shrink-0">
+      <div className="relative aspect-[16/10] w-full overflow-hidden shrink-0 bg-[#0b0b0b]">
         <Image
-          src={project.image}
+          src={imgSrc}
           alt={t(`items.${project.id}.title`)}
           fill
+          unoptimized
+          onError={() => {
+            if (imgSrc.includes("/api/image")) {
+              setImgSrc(`/images/projects/${project.id}.jpg`);
+            }
+          }}
           className="object-cover transition-transform duration-700 group-hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />

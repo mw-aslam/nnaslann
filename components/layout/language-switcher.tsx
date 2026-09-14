@@ -39,7 +39,7 @@ export function LanguageSwitcher() {
       <button
         onClick={() => setOpen((o) => !o)}
         aria-label={t("label")}
-        className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/[0.02] text-white/70 transition-colors hover:text-white"
+        className="flex h-9 w-9 shrink-0 aspect-square items-center justify-center rounded-full border border-white/10 bg-white/[0.02] text-white/70 transition-colors hover:text-white"
       >
         <Globe className="h-4 w-4" />
       </button>

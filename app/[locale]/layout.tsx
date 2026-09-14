@@ -74,6 +74,14 @@ export async function generateMetadata({
       index: true,
       follow: true,
     },
+    icons: {
+      icon: [
+        { url: "/api/image?name=logo", type: "image/png" },
+        { url: "/favicon.ico", type: "image/x-icon" },
+      ],
+      shortcut: "/api/image?name=logo",
+      apple: "/api/image?name=logo",
+    },
   };
 }
 

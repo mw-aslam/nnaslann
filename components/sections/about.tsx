@@ -12,7 +12,7 @@ function Counter({ value, suffix }: { value: number; suffix?: string }) {
   const ref = useRef<HTMLSpanElement>(null);
   const motionValue = useMotionValue(0);
   const springValue = useSpring(motionValue, { damping: 24, stiffness: 60 });
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const isInView = useInView(ref, { once: true, margin: "0px", amount: 0.05 });
 
   useEffect(() => {
     if (isInView) motionValue.set(value);
@@ -68,23 +68,16 @@ export function About() {
           </Card>
         </motion.div>
 
-        <motion.div
-          variants={slideInRight}
-          initial="hidden"
-          whileInView="visible"
-          viewport={viewportOnce}
-          className="grid grid-cols-2 gap-6 lg:col-span-2"
-        >
+        <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:col-span-2">
           {STATS.map((stat, i) => (
             <motion.div
               key={stat.key}
-              variants={fadeUp}
-              custom={i}
-              initial="hidden"
-              whileInView="visible"
-              viewport={viewportOnce}
+              initial={{ opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.05 }}
+              transition={{ duration: 0.4, delay: i * 0.05, ease: "easeOut" }}
             >
-              <Card className="glow-border flex h-full flex-col justify-between gap-3 p-6 transition-transform duration-300 hover:-translate-y-1">
+              <Card className="glow-border flex h-full flex-col justify-between gap-3 p-5 sm:p-6 transition-transform duration-300 hover:-translate-y-1">
                 <span className="text-4xl font-semibold tracking-tight text-gradient-accent sm:text-5xl">
                   <Counter value={stat.value} suffix={stat.suffix} />
                 </span>
@@ -92,7 +85,7 @@ export function About() {
               </Card>
             </motion.div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
