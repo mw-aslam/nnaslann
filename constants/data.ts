@@ -105,7 +105,7 @@ export const SKILLS: Skill[] = [
 export const PROJECTS: Project[] = [
   {
     id: "nexclutch",
-    image: "/api/image?name=nexclutch",
+    image: "/images/projects/nexclutch.jpg",
     tech: ["React", "Electron", "JavaScript", "Tailwind CSS", "System Monitoring"],
     liveUrl: "https://nexclutch.netlify.app/",
     featured: true,
@@ -139,7 +139,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "mwpizzashop",
-    image: "/api/image?name=mwpizzashop",
+    image: "/images/projects/mwpizzashop.jpg",
     tech: ["React", "JavaScript", "Tailwind CSS"],
     liveUrl: "https://mwpizzashop.netlify.app/",
     featured: true,
@@ -147,7 +147,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "coddycompiler",
-    image: "/api/image?name=coddycompiler",
+    image: "/images/projects/coddycompiler.png",
     tech: ["JavaScript", "HTML5", "CSS3", "React"],
     liveUrl: "https://coddycompiler.netlify.app/",
     featured: true,
@@ -155,7 +155,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "coddyinsta",
-    image: "/api/image?name=coddyinsta",
+    image: "/images/projects/coddyinsta.jpg",
     tech: ["Python", "Telegram Bot API", "Media API"],
     liveUrl: "https://t.me/CoddyInsta_bot",
     featured: true,
@@ -164,7 +164,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "coddyreminder",
-    image: "/api/image?name=coddyreminder",
+    image: "/images/projects/coddyreminder.jpg",
     tech: ["Python", "Telegram Bot API", "APScheduler"],
     liveUrl: "https://t.me/CoddyReminder_bot",
     featured: true,
