@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "title": "Arslan Titerbayev — Full-Stack & Telegram Bot Developer",
+    "description": "Arslan Titerbayev — Full-Stack & Telegram Bot Developer based in Tashkent, Uzbekistan with expertise in building fast, responsive web apps (React, Next.js) and smart bots (Python)."
+  },
+  "nav": {
+    "about": "About",
+    "stack": "Tech Stack",
+    "projects": "Projects",
+    "experience": "Experience",
+    "services": "Services",
+    "github": "GitHub",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "letsTalk": "Let's Talk",
+    "resume": "Resume",
+    "downloadResume": "Download CV"
+  },
+  "hero": {
+    "available": "Available for new projects",
+    "headline": "Hi, I'm Arslan.",
+    "rolePrefix": "I am a",
+    "roles": ["Full Stack Developer", "Telegram Bot Developer", "Web & Mobile Developer"],
+    "tagline": "I build modern websites, intelligent Telegram bots, and applications from scratch.",
+    "viewWork": "View Work",
+    "getInTouch": "Get in Touch",
+    "scroll": "Scroll down"
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "title": "Quality and user-friendly software solutions.",
+    "description": "Full Stack Developer building modern websites, smart Telegram bots, and applications.",
+    "bio1": "I'm Arslan Titerbayev — a Full Stack Developer specializing in building modern websites, Telegram bots, and applications. I focus on clean code, smooth user experience, and high performance.",
+    "bio2": "Over 1 year of learning and hands-on practice, I've built 20+ projects, mastered 15+ modern technologies, and delivered real solutions for 10+ satisfied clients.",
+    "tags": ["Full Stack Web", "Telegram Bot API", "Python & Asyncio", "React & Next.js", "AI Integration", "System Optimization"],
+    "stats": {
+      "years": "Years of experience",
+      "projects": "Completed projects",
+      "tech": "Technologies mastered",
+      "clients": "Satisfied clients"
+    }
+  },
+  "stack": {
+    "eyebrow": "Tech Stack",
+    "title": "Tools I build with.",
+    "description": "A modern, battle-tested toolkit spanning frontend, backend, data, and AI.",
+    "categories": {
+      "all": "All",
+      "language": "Languages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "tool": "Tools",
+      "ai": "AI"
+    }
+  },
+  "projects": {
+    "eyebrow": "Selected Work",
+    "title": "Projects that shipped.",
+    "description": "A mix of AI products, e-commerce platforms, and developer tools — built end to end.",
+    "featured": "Featured",
+    "viewDetails": "View Details",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code",
+    "techStackLabel": "Tech Stack",
+    "copyrightNoticeTitle": "Protected by Copyright",
+    "copyrightNotice": "This bot is protected by copyright law and navigation to the project is restricted.",
+    "items": {
+      "nexclutch": {
+        "title": "NEXCLUTCH",
+        "description": "Web & Desktop application for PC optimization, FPS boosting, and real-time hardware monitoring for CS2 players.",
+        "longDescription": "NEXCLUTCH is a powerful platform and desktop app built for Counter-Strike 2 gamers. It offers ready-to-use pro configurations, sensitivity & crosshair presets, PC performance optimizations for higher FPS and zero lag, plus live CPU/GPU/RAM hardware tracking.",
+        "tags": ["Desktop App", "Web App", "Gaming", "Optimization"]
+      },
+      "noutusta": {
+        "title": "NoutUsta",
+        "description": "A fast, trustworthy landing site for a laptop repair service in Tashkent, with online booking.",
+        "longDescription": "NoutUsta is a multilingual (Uzbek, Russian, English) website built for a laptop repair business in Tashkent. It includes a services catalog, customer reviews, and a repair-process gallery.",
+        "tags": ["Service", "Website"]
+      },
+      "bugsense": {
+        "title": "BugSense",
+        "description": "An intelligent AI assistant bot for developers that finds bugs, explains errors, and optimizes code in seconds.",
+        "longDescription": "BugSense is a Telegram-based AI assistant that detects bugs and vulnerabilities in your code, explains them in plain language, and suggests ready-to-use fixes.",
+        "tags": ["AI", "Telegram Bot"]
+      },
+      "mortisai": {
+        "title": "MortisAI",
+        "description": "A multi-functional AI assistant bot that answers questions, writes content, and analyzes images.",
+        "longDescription": "MortisAI is a multi-functional Telegram AI assistant that gives accurate answers, writes content, understands images and voice messages, and chats in multiple languages.",
+        "tags": ["AI", "Telegram Bot"]
+      },
+      "coddyinsta": {
+        "title": "CoddyInstaBot",
+        "description": "Telegram bot for downloading Instagram and YouTube videos in HD quality and finding music.",
+        "longDescription": "CoddyInstaBot is a fast Telegram bot for downloading Instagram videos, Reels, and YouTube videos in HD quality, as well as searching for music.",
+        "tags": ["Media", "Telegram Bot"]
+      },
+      "coddycompiler": {
+        "title": "CoddyCompiler",
+        "description": "Online compiler for running and testing HTML, CSS, and JavaScript projects directly in the browser.",
+        "longDescription": "CoddyCompiler is a real-time interactive online compiler platform for writing, previewing, and testing HTML, CSS, and JavaScript code instantly in your browser.",
+        "tags": ["Web", "Compiler"]
+      },
+      "mwpizzashop": {
+        "title": "Pizza Shop",
+        "description": "A modern e-commerce website for online pizza ordering and delivery.",
+        "longDescription": "Pizza Shop is a sleek web application for ordering pizza online, featuring smooth cart management and instant checkout.",
+        "tags": ["E-commerce", "Website"]
+      },
+      "coddyreminder": {
+        "title": "CoddyReminder",
+        "description": "A Telegram bot that schedules and sends reminders in personal chats and groups at specific dates and times.",
+        "longDescription": "CoddyReminder is a smart Telegram bot for setting automated reminders for specific dates, hours, and minutes in personal or group Telegram chats.",
+        "tags": ["Reminders", "Telegram Bot"]
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "My Work Experience.",
+    "description": "High quality software solutions delivered for clients and personal projects.",
+    "items": {
+      "exp-1": {
+        "role": "Full Stack & Telegram Bot Developer",
+        "period": "2025 — Present",
+        "description": "Building websites, smart Telegram bots, and web applications on freelance and personal projects.",
+        "points": [
+          "Built 20+ real projects and Telegram bots from scratch",
+          "Utilized modern technologies across frontend and backend stacks",
+          "Delivered fast and responsive solutions tailored to client requirements"
+        ]
+      },
+      "exp-2": {
+        "role": "Support Teacher (Assistant Teacher)",
+        "period": "2026 (3 months)",
+        "description": "Assisted students at CoddyCamp IT Academy in mastering programming fundamentals and practical coding tasks.",
+        "points": [
+          "Helped students troubleshoot code and understand practical JavaScript & Python assignments",
+          "Taught clean coding practices and logical problem-solving techniques",
+          "Mentored students through building their practical IT projects"
+        ]
+      }
+    }
+  },
+  "timeline": {
+    "eyebrow": "Journey",
+    "title": "My Development Journey & Key Milestones.",
+    "items": {
+      "t1": {
+        "title": "First Steps in Web Development",
+        "description": "Learned fundamental web technologies (HTML, CSS, JavaScript) and laid a strong foundation in computer science and algorithms."
+      },
+      "t2": {
+        "title": "Python & Telegram Bot Architecture",
+        "description": "Mastered Python, Asyncio, and Telegram Bot API to engineer complex automation bots backed by SQL databases (PostgreSQL, SQLite)."
+      },
+      "t3": {
+        "title": "CoddyCamp IT Academy — Support Teacher",
+        "description": "Worked for 3 months as a Support Teacher at CoddyCamp IT Academy, helping students debug code and master software engineering practices."
+      },
+      "t4": {
+        "title": "Artificial Intelligence (AI) Integration",
+        "description": "Integrated OpenAI GPT-4 and Whisper API to build intelligent bots: BugSense (automated code bug detector) and MortisAI (multimodal AI assistant)."
+      },
+      "t5": {
+        "title": "Full-Stack Web Platforms",
+        "description": "Engineered high-performance web applications like NoutUsta and Pizza Shop leveraging React, Next.js, Vite, and Tailwind CSS."
+      },
+      "t6": {
+        "title": "NEXCLUTCH — Desktop & Web Gaming Platform",
+        "description": "Built NEXCLUTCH — a flagship Web & Desktop application for CS2 gamers featuring live hardware monitoring (CPU, GPU, RAM), FPS boosting, and system optimization."
+      }
+    }
+  },
+  "achievements": {
+    "eyebrow": "Achievements",
+    "title": "Recognition along the way.",
+    "description": "Milestones that mark the path from curious beginner to senior engineer.",
+    "items": {
+      "a1": { "title": "Top Rated Freelancer", "description": "Recognized for consistently delivering premium client work." },
+      "a2": { "title": "Open Source Contributor", "description": "500+ contributions across developer tooling projects." },
+      "a3": { "title": "Hackathon Winner", "description": "1st place, AI innovation track, regional developer hackathon." },
+      "a4": { "title": "Speaker", "description": "Presented on AI-assisted frontend engineering at a local dev meetup." }
+    }
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "How I can help.",
+    "description": "From a single feature to a full product build — flexible engagements built around your goals.",
+    "ctaLabel": "Let's talk",
+    "items": {
+      "s1": {
+        "title": "Web Application Development",
+        "description": "End-to-end web apps built for performance, scale, and long-term maintainability.",
+        "features": ["Next.js & React", "Type-safe APIs", "Database design", "CI/CD setup"]
+      },
+      "s2": {
+        "title": "AI Product Integration",
+        "description": "Embedding LLM-powered features directly into your product experience.",
+        "features": ["RAG pipelines", "Streaming UIs", "Prompt engineering", "Model orchestration"]
+      },
+      "s3": {
+        "title": "Backend & API Engineering",
+        "description": "Robust, secure backend systems that scale with your product.",
+        "features": ["REST & realtime APIs", "Auth & security", "Queues & background jobs", "Database optimization"]
+      },
+      "s4": {
+        "title": "UI/UX & Motion Design",
+        "description": "Interfaces that feel premium — thoughtful motion, spacing, and interaction design.",
+        "features": ["Design systems", "Micro-interactions", "Framer Motion / GSAP", "Accessibility-first UI"]
+      },
+      "s5": {
+        "title": "Performance Engineering",
+        "description": "Making existing products faster, leaner, and more reliable.",
+        "features": ["Core Web Vitals", "Bundle optimization", "Edge caching", "Image/asset pipelines"]
+      },
+      "s6": {
+        "title": "Code Audits & Consulting",
+        "description": "Deep codebase reviews with a clear, prioritized action plan.",
+        "features": ["Architecture review", "Security audit", "Scalability plan", "Team mentoring"]
+      }
+    }
+  },
+  "github": {
+    "eyebrow": "Open Source",
+    "title": "Life on GitHub.",
+    "description": "Live activity, repositories, and language breakdown pulled straight from GitHub.",
+    "connectMessage": "Connect a GitHub account to show live stats here — set <code>githubUsername</code> in <code>constants/data.ts</code>.",
+    "metrics": {
+      "repos": "Public Repos",
+      "stars": "Total Stars",
+      "followers": "Followers",
+      "forks": "Forks Received"
+    }
+  },
+  "certificates": {
+    "eyebrow": "Certificates",
+    "title": "Continuous learning.",
+    "description": "Formal credentials backing up hands-on experience.",
+    "viewCredential": "View Credential",
+    "items": {
+      "c1": { "title": "Full Stack Web Development", "issuer": "Meta" },
+      "c2": { "title": "Advanced React & Next.js", "issuer": "Vercel Academy" },
+      "c3": { "title": "AI Engineering with LLMs", "issuer": "DeepLearning.AI" },
+      "c4": { "title": "System Design Fundamentals", "issuer": "Educative" },
+      "c5": { "title": "PostgreSQL for Developers", "issuer": "Postgres Academy" }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What people say.",
+    "description": "Feedback from founders and product leads I've partnered with.",
+    "items": {
+      "test1": {
+        "role": "Product Manager",
+        "content": "Arslan is the rare engineer who obsesses over both architecture and pixel-level polish. Our AI features shipped faster and felt more premium than anything we'd built before."
+      },
+      "test2": {
+        "role": "Founder",
+        "content": "Working with Arslan felt like adding a senior architect and a designer at the same time. Communication was excellent and the final product exceeded expectations."
+      },
+      "test3": {
+        "role": "CTO",
+        "content": "The real-time dashboard Arslan built handles millions of events without breaking a sweat, and it still looks like something out of an Awwwards showcase."
+      },
+      "test4": {
+        "role": "Design Lead",
+        "content": "Rare to find someone who can translate a design file into motion this faithfully. Every micro-interaction shipped exactly as envisioned."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build something great.",
+    "description": "Have a project in mind or just want to say hi? My inbox is always open.",
+    "getInTouch": "Get in touch",
+    "reachOut": "Prefer email or a quick chat on socials? Reach out directly — I typically respond within a day.",
+    "nameLabel": "Your Name",
+    "emailLabel": "Email Address",
+    "messageLabel": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Opening your mail app...",
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Enter a valid email address.",
+      "message": "Message should be at least 10 characters."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Designed & built with Next.js, TypeScript, and a lot of coffee.",
+    "backToTop": "Back to top"
+  },
+  "commandPalette": {
+    "placeholder": "Type a command or search...",
+    "noResults": "No results found.",
+    "navigateGroup": "Navigate",
+    "actionsGroup": "Actions",
+    "toggleTheme": "Toggle theme",
+    "sendEmail": "Send an email"
+  },
+  "language": {
+    "label": "Language"
+  }
+}

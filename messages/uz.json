@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "title": "Arslan Titerbayev — Full-Stack & Telegram Bot Developer",
+    "description": "Arslan Titerbayev — Toshkentda yashovchi Full-Stack va Telegram Bot dasturchisi. React, Next.js, Python va Telegram Bot API yordamida tezkor veb-saytlar, botlar va ilovalar yaratadi."
+  },
+  "nav": {
+    "about": "Men haqimda",
+    "stack": "Texnologiyalar",
+    "projects": "Loyihalar",
+    "experience": "Tajriba",
+    "services": "Xizmatlar",
+    "github": "GitHub",
+    "testimonials": "Fikrlar",
+    "contact": "Aloqa",
+    "letsTalk": "Bog'lanish",
+    "resume": "Rezyume",
+    "downloadResume": "Rezyumeni yuklash"
+  },
+  "hero": {
+    "available": "Yangi loyihalar uchun ochiqman",
+    "headline": "Salom, men Arslanman.",
+    "rolePrefix": "Men",
+    "roles": ["Full Stack dasturchi", "Telegram Bot dasturchisi", "Veb va Ilovalar dasturchisi"],
+    "tagline": "Men zamonaviy veb-saytlar, aqlli Telegram botlar va qulay ilovalarni noldan kalit topshirishgacha yaratib beraman.",
+    "viewWork": "Ishlarimni ko'rish",
+    "getInTouch": "Bog'lanish",
+    "scroll": "Pastga suring"
+  },
+  "about": {
+    "eyebrow": "Men haqimda",
+    "title": "Sifatli va qulay dasturiy yechimlar.",
+    "description": "Zamonaviy veb-saytlar, aqlli Telegram botlar va ilovalar yaratuvchi Full Stack dasturchi.",
+    "bio1": "Men Arslan Titerbayevman — zamonaviy veb-saytlar, Telegram botlar va foydali ilovalar yaratishga ixtisoslashgan Full Stack dasturchiman. Kod tozaligi, foydalanuvchi uchun qulaylik hamda yuqori tezlikka alohida e'tibor qarataman.",
+    "bio2": "Bir yildan ortiq davom etgan o'rganish va amaliy tajriba davomida 20 dan ortiq loyihalar ustida ishladim, 15 dan ortiq zamonaviy texnologiyalarni o'zlashtirdim va 10 dan ortiq mijozlarga amaliy yechimlar yetkazib berdim.",
+    "tags": ["Full Stack Web", "Telegram Bot API", "Python & Asyncio", "React & Next.js", "AI Integratsiya", "System Optimization"],
+    "stats": {
+      "years": "Dasturlash tajribasi (yil)",
+      "projects": "Bajarilgan loyihalar",
+      "tech": "O'zlashtirilgan texnologiyalar",
+      "clients": "Mamnun mijozlar"
+    }
+  },
+  "stack": {
+    "eyebrow": "Texnologiyalar",
+    "title": "Men ishlatadigan vositalar.",
+    "description": "Frontend, backend, ma'lumotlar va AI'ni qamrab oluvchi zamonaviy, sinovdan o'tgan texnologiyalar to'plami.",
+    "categories": {
+      "all": "Barchasi",
+      "language": "Tillar",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Ma'lumotlar bazasi",
+      "tool": "Vositalar",
+      "ai": "AI"
+    }
+  },
+  "projects": {
+    "eyebrow": "Tanlangan ishlar",
+    "title": "Ishga tushirilgan loyihalar.",
+    "description": "AI mahsulotlari, elektron tijorat platformalari va dasturchilar uchun vositalar — boshidan oxirigacha yaratilgan.",
+    "featured": "Tavsiya etilgan",
+    "viewDetails": "Batafsil",
+    "liveDemo": "Jonli demo",
+    "sourceCode": "Manba kodi",
+    "techStackLabel": "Texnologiyalar",
+    "copyrightNoticeTitle": "Mualliflik huquqi bilan himoyalangan",
+    "copyrightNotice": "Ushbu bot mualliflik huquqi (avtorlik huquqi) bilan himoyalangan va loyihaga o'tish cheklangan.",
+    "items": {
+      "nexclutch": {
+        "title": "NEXCLUTCH",
+        "description": "CS2 o'yinchilari uchun kompyuterni optimallashtirish, FPSni oshirish va real vaqtda tizim ko'rsatkichlarini monitoring qilish platformasi.",
+        "longDescription": "NEXCLUTCH — CS2 (Counter-Strike 2) o'yinchilari uchun maxsus yaratilgan veb-sayt va desktop ilova. Tayyor pro-konfiguratsiyalar, crosshair/sensitivity sozlamalari, lagni kamaytirish va real vaqtda CPU, GPU, RAM hamda harorat ko'rsatkichlarini monitoring qilish imkonini beradi.",
+        "tags": ["Desktop App", "Veb-sayt", "Gaming", "Optimization"]
+      },
+      "noutusta": {
+        "title": "NoutUsta",
+        "description": "Toshkentdagi noutbuk ta'mirlash xizmati uchun tez va ishonchli landing sahifa — onlayn buyurtma va jonli holat kuzatuvi bilan.",
+        "longDescription": "NoutUsta — Toshkentda noutbuklarni ta'mirlash xizmatlarini ko'rsatuvchi kompaniya uchun yaratilgan ko'p tilli (o'zbek, rus, ingliz) veb-sayt. Sayt xizmatlar katalogi, mijozlar sharhlari va ish jarayoni galereyasini o'z ichiga oladi.",
+        "tags": ["Xizmat", "Veb-sayt"]
+      },
+      "bugsense": {
+        "title": "BugSense",
+        "description": "Dasturchilar uchun aqlli AI-yordamchi bot — xatolarni topadi, tushuntiradi va bir necha soniyada kodni optimallashtiradi.",
+        "longDescription": "BugSense — Telegram orqali ishlaydigan AI-yordamchi bot: kodingizdagi xatolarni va zaifliklarni aniqlaydi, ularni sodda tilda tushuntiradi hamda tayyor yechimlar taklif qiladi.",
+        "tags": ["AI", "Telegram bot"]
+      },
+      "mortisai": {
+        "title": "MortisAI",
+        "description": "Savollarga javob beradigan, matn yozadigan, rasm tahlil qiladigan va g'oyalar taklif qiladigan ko'p vazifali AI-yordamchi bot.",
+        "longDescription": "MortisAI — Telegram uchun yaratilgan ko'p funksiyali AI-yordamchi: aniq javoblar beradi, kontent yozadi, rasm va ovozli xabarlarni tushunadi hamda bir nechta tillarda muloqot qiladi.",
+        "tags": ["AI", "Telegram bot"]
+      },
+      "coddyinsta": {
+        "title": "CoddyInstaBot",
+        "description": "Instagram va YouTube videolarini HD sifatda yuklab oluvchi hamda musiqalarni tezkor topuvchi bot.",
+        "longDescription": "CoddyInstaBot — Instagram va YouTube platformalaridagi video hamda Reels'larni yuqori (HD) sifatda yuklab olish hamda istalgan musiqalarni tezkor izlab topish imkonini beruvchi Telegram bot.",
+        "tags": ["Media", "Telegram bot"]
+      },
+      "coddycompiler": {
+        "title": "CoddyCompiler",
+        "description": "HTML, CSS va JavaScript loyihalarini brauzerda real vaqtda ishga tushiruvchi onlayn kompilyator.",
+        "longDescription": "CoddyCompiler — HTML, CSS va JavaScript kodlarini bevosita brauzerning o'zida yozish, natijasini soniyalarda ko'rish va sinab ko'rish imkonini beruvchi real vaqtli kompilyator platformasi.",
+        "tags": ["Veb", "Kompilyator"]
+      },
+      "mwpizzashop": {
+        "title": "Pizza Shop",
+        "description": "Pitsa va taomlarni onlayn buyurtma qilish uchun qulay va zamonaviy elektron tijorat veb-sayti.",
+        "longDescription": "Pizza Shop — mijozlar uchun pitsa va taomlarni onlayn tanlash, savatchaga qo'shish hamda tezkor buyurtma berish imkonini beruvchi qulay va zamonaviy veb-sayt platformasi.",
+        "tags": ["Elektron tijorat", "Veb-sayt"]
+      },
+      "coddyreminder": {
+        "title": "CoddyReminder",
+        "description": "Telegram guruhlar va shaxsiy chatlarda muayyan vaqt va kunga eslatma xabarlarini sozlovchi bot.",
+        "longDescription": "CoddyReminder — Telegram guruhlarda yoki shaxsiy muloqotda belgilangan kun, soat va daqiqalarda eslatma xabarlarini avtomatik yuboruvchi aqlli eslatgich Telegram bot.",
+        "tags": ["Eslatgich", "Telegram bot"]
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "Tajriba",
+    "title": "Mening mehnat faoliyatim.",
+    "description": "Mijozlar va shaxsiy loyihalar uchun yaratilgan sifatli dasturiy yechimlar.",
+    "items": {
+      "exp-1": {
+        "role": "Full Stack & Telegram Bot dasturchisi",
+        "period": "2025 — hozirgacha",
+        "description": "Frilans va shaxsiy loyihalar yo'nalishida veb-saytlar, aqlli Telegram botlar va ilovalar ishlab chiqish.",
+        "points": [
+          "20 dan ortiq real loyihalar va Telegram botlarni noldan yaratib berdim",
+          "Frontend va backend yo'nalishida zamonaviy va tur-xavfsiz texnologiyalardan foydalandim",
+          "Mijozlarning talablariga mos moslashuvchan va tezkor yechimlar yetkazdim"
+        ]
+      },
+      "exp-2": {
+        "role": "Support Teacher (O'quvchilarga yordamchi ustoz)",
+        "period": "2026 (3 oy)",
+        "description": "CoddyCamp IT akademiyasida o'quvchilarga dasturlash asoslari va amaliy topshiriqlarni bajarishda yordam berganman.",
+        "points": [
+          "O'quvchilarga JavaScript va Python bo'yicha amaliy topshiriqlarni tushuntirish va xatoliklarni (bug) to'g'rilashda ko'maklashish",
+          "Kod yozish madaniyati va muammolarni mantiqiy hal qilish jarayonlarini o'rgatish",
+          "O'quvchilarning real loyihalarini nazorat qilish va mentorlik ko'rsatish"
+        ]
+      }
+    }
+  },
+  "timeline": {
+    "eyebrow": "Yo'l",
+    "title": "Mening dasturlashdagi yo'lim va bosqichlarim.",
+    "items": {
+      "t1": {
+        "title": "Dasturlashga Ilk Qadam",
+        "description": "Veb-dasturlash asoslarini (HTML, CSS, JavaScript) o'rganib, kompyuter ilmlari va algoritmlar bo'yicha chuqur amaliy tajriba toplashni boshladim."
+      },
+      "t2": {
+        "title": "Python & Telegram Botlar Ekotizimi",
+        "description": "Python, Asyncio va Telegram Bot API'ni o'zlashtirib, ma'lumotlar bazasi (SQLite, PostgreSQL) bilan ishlaydigan murakkab avtomatlashtirilgan botlarni yaratdim."
+      },
+      "t3": {
+        "title": "CoddyCamp IT Academy — Support Teacher",
+        "description": "CoddyCamp IT akademiyasida 3 oy davomida Yordamchi O'qituvchi (Support Teacher) bo'lib ishladim. O'quvchilarga koddagi xatoliklarni to'g'rilash va mantiqiy fikrlashni o'rgatdim."
+      },
+      "t4": {
+        "title": "Sun'iy Intellekt (AI) Integratsiyasi",
+        "description": "OpenAI GPT-4 va Whisper API texnologiyalarini integratsiya qilib, BugSense (kod dilerlik boti) va MortisAI (ovoz va matnli ko'p funksiyali AI) botlarini yaratdim."
+      },
+      "t5": {
+        "title": "Full-Stack Veb-Platformalar",
+        "description": "React, Next.js, Vite va Tailwind CSS texnologiyalari asosida NoutUsta va Pizza Shop kabi yuqori unumdorlikka ega zamonaviy veb-saytlarni ishlab chiqdim."
+      },
+      "t6": {
+        "title": "NEXCLUTCH — Desktop & Web Platformasi",
+        "description": "CS2 o'yinchilari uchun mo'ljallangan NEXCLUTCH platformasini va Desktop ilovasini yaratdim — kompyuter resurslarini (CPU, GPU, RAM) real vaqtda monitoring qilish va FPS optimizatsiyasi."
+      }
+    }
+  },
+  "achievements": {
+    "eyebrow": "Yutuqlar",
+    "title": "Yo'l davomidagi tan olinishlar.",
+    "description": "Qiziquvchan boshlovchidan senior muhandisgacha bo'lgan yo'lni belgilovchi bosqichlar.",
+    "items": {
+      "a1": { "title": "Top Rated frilanser", "description": "Mijozlar uchun doimiy ravishda yuqori sifatli ish yetkazib berganligi uchun tan olindi." },
+      "a2": { "title": "Ochiq manba ishtirokchisi", "description": "Dasturchi vositalari loyihalariga 500+ hissa qo'shildi." },
+      "a3": { "title": "Hakaton g'olibi", "description": "Mintaqaviy dasturchilar hakatonida AI innovatsiyalari yo'nalishi bo'yicha 1-o'rin." },
+      "a4": { "title": "Spiker", "description": "Mahalliy dasturchilar uchrashuvida AI yordamida frontend dasturlash haqida ma'ruza qildi." }
+    }
+  },
+  "services": {
+    "eyebrow": "Xizmatlar",
+    "title": "Men qanday yordam bera olaman.",
+    "description": "Bitta funksiyadan to'liq mahsulot yaratishgacha — sizning maqsadlaringizga moslashuvchan hamkorlik formatlari.",
+    "ctaLabel": "Suhbatlashamiz",
+    "items": {
+      "s1": {
+        "title": "Veb-ilova ishlab chiqish",
+        "description": "Unumdorlik, miqyoslilik va uzoq muddatli qo'llab-quvvatlash uchun yaratilgan to'liq veb-ilovalar.",
+        "features": ["Next.js va React", "Tur-xavfsiz API'lar", "Ma'lumotlar bazasi dizayni", "CI/CD sozlash"]
+      },
+      "s2": {
+        "title": "AI mahsulot integratsiyasi",
+        "description": "LLM asosidagi funksiyalarni to'g'ridan-to'g'ri mahsulot tajribangizga joylashtirish.",
+        "features": ["RAG pipeline'lari", "Oqimli interfeyslar", "Prompt muhandisligi", "Model orkestratsiyasi"]
+      },
+      "s3": {
+        "title": "Backend va API muhandisligi",
+        "description": "Mahsulotingiz bilan birga o'sadigan mustahkam va xavfsiz backend tizimlari.",
+        "features": ["REST va realtime API'lar", "Autentifikatsiya va xavfsizlik", "Navbatlar va fon vazifalari", "Ma'lumotlar bazasini optimallashtirish"]
+      },
+      "s4": {
+        "title": "UI/UX va motion dizayn",
+        "description": "Premium his qiladigan interfeyslar — o'ylangan animatsiya, bo'shliqlar va o'zaro ta'sir dizayni.",
+        "features": ["Dizayn tizimlari", "Mikro o'zaro ta'sirlar", "Framer Motion / GSAP", "Qulaylikka birinchi navbatda e'tibor"]
+      },
+      "s5": {
+        "title": "Unumdorlik muhandisligi",
+        "description": "Mavjud mahsulotlarni tezroq, yengilroq va ishonchliroq qilish.",
+        "features": ["Core Web Vitals", "Bundle optimallashtirish", "Edge keshlash", "Rasm/asset pipeline'lari"]
+      },
+      "s6": {
+        "title": "Kod auditi va konsalting",
+        "description": "Aniq va ustuvorliklashtirilgan harakat rejasi bilan kodlar bazasini chuqur tekshirish.",
+        "features": ["Arxitektura ko'rib chiqish", "Xavfsizlik auditi", "Miqyoslilik rejasi", "Jamoaga ustozlik"]
+      }
+    }
+  },
+  "github": {
+    "eyebrow": "Ochiq manba",
+    "title": "GitHub'dagi hayot.",
+    "description": "GitHub'dan to'g'ridan-to'g'ri olingan jonli faollik, repozitoriylar va tillar bo'yicha taqsimot.",
+    "connectMessage": "Bu yerda jonli statistikani ko'rsatish uchun GitHub akkauntini ulang — <code>constants/data.ts</code> faylida <code>githubUsername</code>ni belgilang.",
+    "metrics": {
+      "repos": "Ochiq repozitoriylar",
+      "stars": "Jami yulduzchalar",
+      "followers": "Obunachilar",
+      "forks": "Olingan fork'lar"
+    }
+  },
+  "certificates": {
+    "eyebrow": "Sertifikatlar",
+    "title": "Uzluksiz ta'lim.",
+    "description": "Amaliy tajribani tasdiqlovchi rasmiy sertifikatlar.",
+    "viewCredential": "Sertifikatni ko'rish",
+    "items": {
+      "c1": { "title": "Full Stack veb-dasturlash", "issuer": "Meta" },
+      "c2": { "title": "Ilg'or React va Next.js", "issuer": "Vercel Academy" },
+      "c3": { "title": "LLM bilan AI muhandisligi", "issuer": "DeepLearning.AI" },
+      "c4": { "title": "Tizim dizayni asoslari", "issuer": "Educative" },
+      "c5": { "title": "Dasturchilar uchun PostgreSQL", "issuer": "Postgres Academy" }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Fikrlar",
+    "title": "Odamlar nima deydi.",
+    "description": "Men hamkorlik qilgan asoschilar va mahsulot yetakchilarining fikrlari.",
+    "items": {
+      "test1": {
+        "role": "Product Manager",
+        "content": "Arslan ham arxitekturaga, ham piksel darajasidagi nafislikka bir xil darajada e'tibor beradigan kamdan-kam muhandis. Bizning AI funksiyalarimiz tezroq chiqdi va avvalgi barcha ishlarimizdan ko'ra premium ko'rindi."
+      },
+      "test2": {
+        "role": "Asoschi",
+        "content": "Arslan bilan ishlash xuddi bir vaqtning o'zida senior arxitektor va dizaynerni jamoaga qo'shgandek edi. Muloqot a'lo darajada bo'ldi va yakuniy mahsulot kutganlarimizdan oshib ketdi."
+      },
+      "test3": {
+        "role": "CTO",
+        "content": "Arslan qurgan real vaqtli panel millionlab hodisalarni muammosiz qayta ishlaydi va shunga qaramay Awwwards ko'rgazmasidagi ishlarga o'xshaydi."
+      },
+      "test4": {
+        "role": "Dizayn yetakchisi",
+        "content": "Dizayn faylini shu darajada aniqlik bilan animatsiyaga aylantira oladigan odamni kamdan-kam uchratasiz. Har bir mikro o'zaro ta'sir xuddi rejalashtirilganidek chiqdi."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Aloqa",
+    "title": "Keling, ajoyib narsa yarataylik.",
+    "description": "Loyiha g'oyangiz bormi yoki shunchaki salom aytmoqchimisiz? Pochtam doimo ochiq.",
+    "getInTouch": "Bog'lanish",
+    "reachOut": "Pochta yoki ijtimoiy tarmoqlarda tezkor suhbatni afzal ko'rasizmi? To'g'ridan-to'g'ri yozing — odatda bir kun ichida javob beraman.",
+    "nameLabel": "Ismingiz",
+    "emailLabel": "Email manzil",
+    "messageLabel": "Xabaringiz",
+    "send": "Xabar yuborish",
+    "sending": "Yuborilmoqda...",
+    "success": "Pochta ilovasi ochilmoqda...",
+    "errors": {
+      "name": "Iltimos, ismingizni kiriting.",
+      "email": "To'g'ri email manzilini kiriting.",
+      "message": "Xabar kamida 10 belgidan iborat bo'lishi kerak."
+    }
+  },
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan.",
+    "builtWith": "Next.js, TypeScript va ko'p miqdordagi qahva bilan loyihalangan va yaratilgan.",
+    "backToTop": "Yuqoriga"
+  },
+  "commandPalette": {
+    "placeholder": "Buyruq kiriting yoki qidiring...",
+    "noResults": "Hech narsa topilmadi.",
+    "navigateGroup": "Navigatsiya",
+    "actionsGroup": "Amallar",
+    "toggleTheme": "Mavzuni almashtirish",
+    "sendEmail": "Email yuborish"
+  },
+  "language": {
+    "label": "Til"
+  }
+}
