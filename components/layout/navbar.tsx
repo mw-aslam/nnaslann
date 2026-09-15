@@ -7,7 +7,6 @@ import { useTranslations } from "next-intl";
 import { NAV_LINKS } from "@/constants/data";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { cn } from "@/lib/utils";
-import { ThemeToggle } from "@/components/layout/theme-toggle";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { Button } from "@/components/ui/button";
 

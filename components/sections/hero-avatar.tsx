@@ -9,7 +9,7 @@ export function HeroAvatar() {
   const [imgSrc, setImgSrc] = useState("/api/image?name=profile&v=final");
 
   return (
-    <div className="relative mx-auto my-4 flex items-center justify-center max-w-full px-2 sm:my-6">
+    <div className="relative mx-auto my-4 flex items-center justify-center max-w-full px-2 sm:my-6 pt-6">
       {/* Outer Glow Halo */}
       <div className="absolute -inset-6 -z-10 rounded-[140px] bg-gradient-to-b from-white/15 via-white/5 to-transparent blur-3xl sm:-inset-8 sm:rounded-[160px]" />
 
