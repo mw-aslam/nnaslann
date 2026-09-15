@@ -91,41 +91,41 @@ export function HeroAvatar() {
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}
-        className="absolute -left-10 -top-6 z-20 hidden items-center gap-2.5 rounded-2xl border border-white/15 bg-black/80 px-3.5 py-2.5 shadow-2xl backdrop-blur-xl md:flex"
+        className="absolute -left-10 top-2 z-20 hidden items-center gap-2.5 rounded-2xl border border-white/15 bg-black/80 px-3.5 py-2.5 shadow-2xl backdrop-blur-xl md:flex"
       >
         <div className="flex h-7 w-7 items-center justify-center rounded-lg border border-white/10 bg-white/10 text-white">
           <Code2 className="h-4 w-4" />
         </div>
         <div className="flex flex-col text-left">
-          <span className="text-[11px] font-semibold text-white">React 19 & Next.js</span>
+          <span className="text-[11px] font-semibold text-white">Next.js & React</span>
           <span className="text-[9px] text-white/50">Full-Stack Architecture</span>
         </div>
       </motion.div>
 
-      {/* Floating Tech Badge 1 (Bottom Left - Safe mobile fit) */}
+      {/* Floating Tech Badge 1 (Bottom Left - Staggered higher to prevent mobile overlap) */}
       <motion.div
         animate={{ y: [-4, 4, -4] }}
         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute left-1 bottom-4 z-30 sm:-left-12 sm:bottom-12"
+        className="absolute -left-3 bottom-12 z-30 sm:-left-12 sm:bottom-10"
       >
-        <div className="flex items-center gap-1 rounded-full border border-white/20 bg-black/90 px-2 py-0.5 sm:px-4 sm:py-2 shadow-xl backdrop-blur-md">
-          <span className="h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-white shadow-[0_0_8px_white]" />
+        <div className="flex items-center gap-1.5 rounded-full border border-white/20 bg-black/90 px-3 py-1 sm:px-4 sm:py-2 shadow-xl backdrop-blur-md">
+          <span className="h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-white shadow-[0_0_8px_rgba(255,255,255,0.9)]" />
           <span className="font-mono text-[9px] sm:text-xs font-medium text-white/90">
             Node.js • Express • DB
           </span>
         </div>
       </motion.div>
 
-      {/* Floating Tech Badge 2 (Bottom Right - Safe mobile fit) */}
+      {/* Floating Tech Badge 2 (Bottom Right - Staggered lower to match reference layout) */}
       <motion.div
         animate={{ y: [4, -4, 4] }}
         transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute right-1 -bottom-4 z-30 sm:-right-10 sm:bottom-4"
+        className="absolute -right-3 -bottom-3 z-30 sm:-right-10 sm:bottom-2"
       >
-        <div className="flex items-center gap-1 rounded-full border border-white/20 bg-black/90 px-2 py-0.5 sm:px-4 sm:py-2 shadow-xl backdrop-blur-md">
-          <span className="h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-white shadow-[0_0_8px_white]" />
+        <div className="flex items-center gap-1.5 rounded-full border border-white/20 bg-black/90 px-3 py-1 sm:px-4 sm:py-2 shadow-xl backdrop-blur-md">
+          <span className="h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-white shadow-[0_0_8px_rgba(255,255,255,0.9)]" />
           <span className="font-mono text-[9px] sm:text-xs font-medium text-white/90">
-            React • Next.js • Python
+            React • Next.js • TS
           </span>
         </div>
       </motion.div>

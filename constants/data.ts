@@ -147,7 +147,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "woodendot",
-    image: "/api/image?name=woodendot",
+    image: "/images/projects/woodendot.jpg",
     tech: ["React", "JavaScript", "Tailwind CSS", "UI/UX Design"],
     liveUrl: "https://woodenndot.netlify.app/",
     featured: true,
@@ -155,7 +155,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "starbucks",
-    image: "/api/image?name=starbucks",
+    image: "/images/projects/starbucks.jpg",
     tech: ["React", "JavaScript", "Tailwind CSS", "UI/UX Design"],
     liveUrl: "https://starbuckksss.netlify.app/",
     featured: true,

@@ -22,19 +22,6 @@ export function Hero() {
       className="relative flex min-h-[100svh] w-full max-w-full flex-col items-center justify-center overflow-hidden px-4 sm:px-6 pt-28 pb-16"
     >
       <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mb-4 flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-4 py-1.5 text-xs text-white/60"
-        >
-          <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-glow)] opacity-75" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--color-glow)]" />
-          </span>
-          {t("available")}
-        </motion.div>
-
         {/* Hero Avatar Arched Dome Widget */}
         <HeroAvatar />
 

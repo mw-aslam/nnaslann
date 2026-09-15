@@ -11,6 +11,8 @@ import { ThemeToggle } from "@/components/layout/theme-toggle";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { Button } from "@/components/ui/button";
 
+import { getLenis } from "@/hooks/useLenis";
+
 export function Navbar() {
   const t = useTranslations("nav");
   const [scrolled, setScrolled] = useState(false);
@@ -27,7 +29,13 @@ export function Navbar() {
 
   function handleNavClick(href: string) {
     setMobileOpen(false);
-    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+    const lenis = getLenis();
+    const target = document.querySelector(href);
+    if (lenis && target) {
+      lenis.scrollTo(target, { duration: 1.2 });
+    } else if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
   }
 
   return (
@@ -54,14 +62,9 @@ export function Navbar() {
             e.preventDefault();
             handleNavClick("#hero");
           }}
-          className="flex items-center gap-2.5 text-base sm:text-lg font-semibold tracking-tight text-white group"
+          className="font-mono text-lg sm:text-xl font-extrabold tracking-tight text-white transition-all hover:opacity-80 cursor-pointer"
         >
-          <img
-            src="/api/image?name=logo"
-            alt="TA Logo"
-            className="h-6 w-6 rounded-full object-contain shadow-sm transition-transform group-hover:scale-105"
-          />
-          <span>Arslan<span className="text-[var(--color-accent)]">.</span></span>
+          Arslan
         </a>
 
         <div className="hidden items-center gap-1 lg:flex">
@@ -76,7 +79,7 @@ export function Navbar() {
                   handleNavClick(link.href);
                 }}
                 className={cn(
-                  "relative rounded-full px-4 py-2 text-sm transition-colors",
+                  "relative rounded-full px-4 py-2 text-sm transition-colors cursor-pointer",
                   isActive ? "text-white" : "text-white/50 hover:text-white"
                 )}
               >
@@ -99,7 +102,7 @@ export function Navbar() {
             size="sm"
             variant="accent"
             asChild
-            className="hidden sm:inline-flex"
+            className="hidden sm:inline-flex cursor-pointer"
           >
             <a href="/Arslan_Titerbayev_CV.pdf" download="Arslan_Titerbayev_CV.pdf">
               <Download className="h-3.5 w-3.5" />
@@ -109,13 +112,13 @@ export function Navbar() {
           <Button
             size="sm"
             variant="outline"
-            className="hidden md:inline-flex"
+            className="hidden md:inline-flex cursor-pointer"
             onClick={() => handleNavClick("#contact")}
           >
             {t("letsTalk")}
           </Button>
           <button
-            className="rounded-full border border-white/10 p-2 text-white lg:hidden"
+            className="rounded-full border border-white/10 p-2 text-white lg:hidden cursor-pointer"
             onClick={() => setMobileOpen((o) => !o)}
             aria-label="Toggle menu"
           >
@@ -140,7 +143,7 @@ export function Navbar() {
                   e.preventDefault();
                   handleNavClick(link.href);
                 }}
-                className="rounded-lg px-4 py-3 text-xl font-medium text-white/70 transition-colors hover:bg-white/5 hover:text-white"
+                className="rounded-lg px-4 py-3 text-xl font-medium text-white/70 transition-colors hover:bg-white/5 hover:text-white cursor-pointer"
               >
                 {t(link.labelKey)}
               </a>

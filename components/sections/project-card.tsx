@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { ArrowUpRight } from "lucide-react";
@@ -20,6 +20,10 @@ export function ProjectCard({ project, onOpen, featured }: ProjectCardProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
   const [imgSrc, setImgSrc] = useState(project.image);
+
+  useEffect(() => {
+    setImgSrc(project.image);
+  }, [project.image]);
 
   function handleMove(e: React.MouseEvent<HTMLDivElement>) {
     const rect = ref.current?.getBoundingClientRect();
