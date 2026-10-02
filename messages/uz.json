@@ -78,6 +78,12 @@
         "longDescription": "NoutUsta — Toshkentda noutbuklarni ta'mirlash xizmatlarini ko'rsatuvchi kompaniya uchun yaratilgan ko'p tilli (o'zbek, rus, ingliz) veb-sayt. Sayt xizmatlar katalogi, mijozlar sharhlari va ish jarayoni galereyasini o'z ichiga oladi.",
         "tags": ["Xizmat", "Veb-sayt"]
       },
+      "7pc": {
+        "title": "7PC.UZ",
+        "description": "Toshkentda noutbuklar sotish, sotib olish, trade-in va kompyuter aksessuarlari platformasi.",
+        "longDescription": "7PC.UZ — Toshkentda noutbuklarni (ASUS ROG, Lenovo Legion, MacBook) sotish, baholash, instant trade-in hamda kompyuter aksessuarlarini xarid qilish uchun zamonaviy va tezkor veb-sayt platformasi.",
+        "tags": ["E-Commerce", "Veb-sayt", "Gaming & Tech"]
+      },
       "bugsense": {
         "title": "BugSense",
         "description": "Dasturchilar uchun aqlli AI-yordamchi bot — xatolarni topadi, tushuntiradi va bir necha soniyada kodni optimallashtiradi.",

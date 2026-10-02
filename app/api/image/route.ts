@@ -43,6 +43,11 @@ const IMAGE_MAP: Record<string, { src: string; destName: string; contentType: st
     destName: "starbucks.jpg",
     contentType: "image/jpeg",
   },
+  sevenpc: {
+    src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/sevenpc_preview_1790949370228.jpg",
+    destName: "7pc.jpg",
+    contentType: "image/jpeg",
+  },
   logo: {
     src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1789416625177.png",
     destName: "logo.png",

@@ -78,6 +78,12 @@
         "longDescription": "NoutUsta is a multilingual (Uzbek, Russian, English) website built for a laptop repair business in Tashkent. It includes a services catalog, customer reviews, and a repair-process gallery.",
         "tags": ["Service", "Website"]
       },
+      "7pc": {
+        "title": "7PC.UZ",
+        "description": "Premium laptop store, buyback trade-in, and accessories platform in Tashkent.",
+        "longDescription": "7PC.UZ is a modern e-commerce and trade-in platform for buying, selling, evaluating laptops (ASUS ROG, Lenovo Legion, MacBook) and computer accessories in Tashkent.",
+        "tags": ["E-Commerce", "Web App", "Gaming & Tech"]
+      },
       "bugsense": {
         "title": "BugSense",
         "description": "An intelligent AI assistant bot for developers that finds bugs, explains errors, and optimizes code in seconds.",

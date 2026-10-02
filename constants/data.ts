@@ -129,6 +129,14 @@ export const PROJECTS: Project[] = [
     year: "2026",
   },
   {
+    id: "7pc",
+    image: "/images/projects/7pc.jpg",
+    tech: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+    liveUrl: "https://7pc.uz",
+    featured: true,
+    year: "2026",
+  },
+  {
     id: "bugsense",
     image: "/images/projects/bugsense.png",
     tech: ["Python", "Telegram Bot API", "OpenAI API"],
