@@ -48,6 +48,11 @@ const IMAGE_MAP: Record<string, { src: string; destName: string; contentType: st
     destName: "7pc.jpg",
     contentType: "image/png",
   },
+  "7pc": {
+    src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1790993881430.png",
+    destName: "7pc.jpg",
+    contentType: "image/png",
+  },
   elclasico: {
     src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1790993857109.png",
     destName: "elclasico.png",
