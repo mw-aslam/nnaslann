@@ -51,8 +51,10 @@ export function ProjectCard({ project, onOpen, featured }: ProjectCardProps) {
           fill
           unoptimized
           onError={() => {
-            if (imgSrc.includes("/api/image")) {
-              setImgSrc(`/images/projects/${project.id}.jpg`);
+            if (imgSrc.endsWith(".jpg")) {
+              setImgSrc(`/images/projects/${project.id}.png`);
+            } else if (imgSrc.endsWith(".png")) {
+              setImgSrc(`/api/image?name=${project.id}`);
             }
           }}
           className="object-cover transition-transform duration-700 group-hover:scale-110"
