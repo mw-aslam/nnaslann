@@ -44,9 +44,14 @@ const IMAGE_MAP: Record<string, { src: string; destName: string; contentType: st
     contentType: "image/jpeg",
   },
   sevenpc: {
-    src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/sevenpc_preview_1790949370228.jpg",
+    src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1790993881430.png",
     destName: "7pc.jpg",
-    contentType: "image/jpeg",
+    contentType: "image/png",
+  },
+  elclasico: {
+    src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1790993857109.png",
+    destName: "elclasico.png",
+    contentType: "image/png",
   },
   logo: {
     src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1789416625177.png",
@@ -54,6 +59,25 @@ const IMAGE_MAP: Record<string, { src: string; destName: string; contentType: st
     contentType: "image/png",
   },
 };
+
+// Auto-sync images to public directory
+try {
+  Object.values(IMAGE_MAP).forEach(({ src, destName }) => {
+    const isProfile = destName.startsWith("profile");
+    const targetDir = isProfile
+      ? path.join(process.cwd(), "public", "images")
+      : path.join(process.cwd(), "public", "images", "projects");
+    if (!fs.existsSync(targetDir)) {
+      fs.mkdirSync(targetDir, { recursive: true });
+    }
+    const targetPath = path.join(targetDir, destName);
+    if (fs.existsSync(src)) {
+      try {
+        fs.copyFileSync(src, targetPath);
+      } catch (e) {}
+    }
+  });
+} catch (e) {}
 
 const LOGO_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
   <circle cx="256" cy="256" r="250" fill="#FFFFFF"/>

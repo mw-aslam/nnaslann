@@ -137,6 +137,14 @@ export const PROJECTS: Project[] = [
     year: "2026",
   },
   {
+    id: "elclasico",
+    image: "/images/projects/elclasico.png",
+    tech: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+    liveUrl: "https://elclasico-one.vercel.app/",
+    featured: true,
+    year: "2026",
+  },
+  {
     id: "bugsense",
     image: "/images/projects/bugsense.png",
     tech: ["Python", "Telegram Bot API", "OpenAI API"],

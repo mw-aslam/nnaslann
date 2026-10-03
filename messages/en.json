@@ -84,6 +84,12 @@
         "longDescription": "7PC.UZ is a modern e-commerce and trade-in platform for buying, selling, evaluating laptops (ASUS ROG, Lenovo Legion, MacBook) and computer accessories in Tashkent.",
         "tags": ["E-Commerce", "Web App", "Gaming & Tech"]
       },
+      "elclasico": {
+        "title": "El Clásico",
+        "description": "Interactive football tournament management platform tracking Real Madrid vs Liverpool FC stats and live ratings.",
+        "longDescription": "El Clásico is a web platform for managing and tracking football matches between Real Madrid and Liverpool FC, including player stats, goals, assists, attendance bonuses, and live team ratings.",
+        "tags": ["Web App", "Football", "Stats & Rating"]
+      },
       "bugsense": {
         "title": "BugSense",
         "description": "An intelligent AI assistant bot for developers that finds bugs, explains errors, and optimizes code in seconds.",

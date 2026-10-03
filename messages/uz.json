@@ -84,6 +84,12 @@
         "longDescription": "7PC.UZ — Toshkentda noutbuklarni (ASUS ROG, Lenovo Legion, MacBook) sotish, baholash, instant trade-in hamda kompyuter aksessuarlarini xarid qilish uchun zamonaviy va tezkor veb-sayt platformasi.",
         "tags": ["E-Commerce", "Veb-sayt", "Gaming & Tech"]
       },
+      "elclasico": {
+        "title": "El Clásico",
+        "description": "Real Madrid vs Liverpool FC jamoalari o'yinlari, statistikasi va jonli reytinglar platformasi.",
+        "longDescription": "El Clásico — futbol jamoalari (Real Madrid vs Liverpool FC) o'rtasidagi musobaqa o'yinlari, gollar, assistlar, seytlar, davomat bonuslari hamda o'yinchilarning jonli reytinglarini tahlil qiluvchi va boshqaruvchi veb-sayt platformasi.",
+        "tags": ["Veb-sayt", "Futbol", "Statistika & Reyting"]
+      },
       "bugsense": {
         "title": "BugSense",
         "description": "Dasturchilar uchun aqlli AI-yordamchi bot — xatolarni topadi, tushuntiradi va bir necha soniyada kodni optimallashtiradi.",
