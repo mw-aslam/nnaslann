@@ -44,17 +44,17 @@ const IMAGE_MAP: Record<string, { src: string; destName: string; contentType: st
     contentType: "image/jpeg",
   },
   sevenpc: {
-    src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1790993881430.png",
+    src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1791362887913.png",
     destName: "7pc.jpg",
     contentType: "image/png",
   },
   "7pc": {
-    src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1790993881430.png",
+    src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1791362887913.png",
     destName: "7pc.jpg",
     contentType: "image/png",
   },
   elclasico: {
-    src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1790993857109.png",
+    src: "C:/Users/user/.gemini/antigravity/brain/a70e3abf-aff6-4fb2-ad2b-a82872078b37/.user_uploaded/media_1791363043788.png",
     destName: "elclasico.png",
     contentType: "image/png",
   },
